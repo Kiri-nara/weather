@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-style: normal;
+    font-size: 0;
+    color: #fff;
+    max-width: 1000px;
+}
+
+main {
+    background-color: #3399cc;
+    border: 10px solid #2b81ac;
+    min-height: 600px;
+}
+
+.heading {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 15px 150px;
+}
+
+.parent:hover > li {
+    opacity: 0.5;
+}
+
+.parent:hover > li:hover {
+    opacity: 1;
+}
+
+p {
+    margin: 18px auto 2px;
+}
+
+div {
+    margin-bottom: 18px;
+}
+
+li span, li i {
+    opacity: 0.7;
+}
+
+li {
+    display: inline-block;
+    border: 3px solid #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.text {
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.town2, .town3, .town4, .town5, .town6, .town7, .town8, .town10 {
+    width: 25%;
+}
+
+.town1 {
+    background-color: #3399cc;
+    width: 50%;
+}
+
+.town2 {
+    background-color: #33cccc;
+}
+
+.town3 {
+    background-color: #996699;
+}
+
+.town4 {
+    background-color: #c24747;
+}
+
+.town5 {
+    background-color: #e2674a;
+}
+
+.town6 {
+    background-color: #ffcc66;
+}
+
+.town7 {
+    background-color: #99cc99;
+}
+
+.town8 {
+    background-color: #669999;
+}
+
+.town9 {
+    width: 50%;
+    background-color: #cc6699;
+}
+
+.town10 {
+    background-color: #339966;
+}
+.town11 {
+    width: 100%;
+    background-color: #666699;
+}
